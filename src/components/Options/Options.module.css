@@ -1,0 +1,15 @@
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 20px 0px;
+}
+
+@media only screen and (min-width: 375px) {
+  .optionsList {
+    flex-direction: row;
+  }
+}
