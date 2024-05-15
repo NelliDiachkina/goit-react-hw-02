@@ -47,7 +47,7 @@ const App = () => {
         resetFeedback={resetFeedback}
         totalFeedback={totalFeedback}
       />
-      {totalFeedback ? (
+      {totalFeedback > 0 ? (
         <Feedback
           value={feedbackCount}
           totalFeedback={totalFeedback}
